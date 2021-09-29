@@ -1,0 +1,157 @@
+body {
+  background-color: #000;
+}
+
+.mainbox {
+  background: #232324;
+  grid-template-columns: auto auto;
+  width: 68%;
+  height: 98vh;
+  color: #fff;
+  margin: 10px auto;
+  padding: 1.5% 2%;
+  position: relative;
+}
+
+.subMain {
+  position: relative;
+  width: 50%;
+
+  height: 100%;
+  padding: 2%;
+  display: inline-block;
+}
+
+.subMain2 {
+  width: 46%;
+  height: 94%;
+  margin-left: 2%;
+  position: absolute;
+  display: inline-block;
+}
+
+.imgContainer1,
+.imgContainer2,
+.imgContainer3,
+.imgContainer4,
+.imgContainer5 {
+  position: absolute;
+}
+
+.imgContainer2,
+.imgContainer3,
+.imgContainer4,
+.imgContainer5 {
+  width: 45%;
+}
+
+.imgContainer2,
+.imgContainer3 {
+  top: 59%;
+}
+
+.imgContainer3,
+.imgContainer5 {
+  left: 52%;
+}
+
+.imgContainer4,
+.imgContainer5 {
+  top: 80%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.imgContainer1 {
+  width: 92%;
+}
+
+.imgContainer1 img {
+  width: 100%;
+  height: 350px;
+}
+
+.imgContainer3 img,
+.imgContainer5 img,
+.imgContainer2 img,
+.imgContainer4 img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+  .mainbox {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+  }
+  .subMain {
+    display: block;
+    width: 100%;
+  }
+  .subMain2 {
+    display: block;
+    width: 100%;
+    margin: 3% auto;
+  }
+
+  .imgContainer1 {
+    height: 280px;
+  }
+  .imgContainer1 img {
+    height: 100%;
+  }
+
+  .imgContainer2,
+  .imgContainer3,
+  .imgContainer4,
+  .imgContainer5 {
+    height: 120px;
+  }
+
+  .imgContainer2,
+  .imgContainer3 {
+    top: 54%;
+  }
+
+  .imgContainer4,
+  .imgContainer5 {
+    top: 77%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  .mainbox {
+    width: 100%;
+    margin: 0;
+  }
+  .subMain {
+    display: block;
+    width: 100%;
+  }
+  .subMain2 {
+    display: block;
+    width: 100%;
+    margin: 3% auto;
+  }
+
+  .imgContainer1 {
+    height: 500px;
+    width: 94%;
+  }
+  .imgContainer1 img {
+    height: 100%;
+  }
+
+  .imgContainer2,
+  .imgContainer3 {
+    top: 56%;
+  }
+
+  .imgContainer4,
+  .imgContainer5 {
+    top: 78%;
+  }
+}

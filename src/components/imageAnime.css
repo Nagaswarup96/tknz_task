@@ -1,0 +1,370 @@
+#firstAnimeB1 {
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: firstBox1 0.5s linear;
+  z-index: 1;
+}
+
+/* Box 1 */
+@keyframes firstBox1 {
+  0% {
+    top: 2%;
+    right: 2%;
+    z-index: 1;
+  }
+  100% {
+    transform: scaleX(0.4) scaleY(0.45);
+    right: 30%;
+    top: 37%;
+    z-index: 1;
+  }
+}
+
+/* Box 2 */
+#firstAnimeB2 {
+  animation: firstBox2 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes firstBox2 {
+  0% {
+    top: 52%;
+    right: 52%;
+    z-index: 2;
+  }
+
+  100% {
+    transform: scaleX(2) scaleY(2.8);
+    right: 28%;
+    top: 22%;
+    z-index: 2;
+  }
+}
+
+/* Animation for clicking on image3 */
+
+#secondAnimeB1 {
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+  animation: secondBox1 0.5s ease-out;
+  z-index: 1;
+  position: absolute;
+}
+
+@keyframes secondBox1 {
+  0% {
+    right: 30%;
+    z-index: 3;
+  }
+  100% {
+    right: 2%;
+    z-index: 3;
+  }
+}
+
+/* Box2 */
+
+#secondAnimeB2 {
+  animation: secondBox2 0.5s linear;
+  z-index: 1;
+}
+
+@keyframes secondBox2 {
+  0% {
+    top: 2%;
+    right: 2%;
+    z-index: 1;
+  }
+  100% {
+    transform: scaleX(0.4) scaleY(0.45);
+    right: 30%;
+    top: 37%;
+    z-index: 1;
+  }
+}
+
+/* Box 3 */
+
+#secondAnimeB3 {
+  animation: secondBox3 0.5s ease-out;
+  z-index: 1;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes secondBox3 {
+  0% {
+    top: 59%;
+    left: 52%;
+    z-index: 2;
+  }
+  100% {
+    transform: scaleX(2) scaleY(2.8);
+    left: 28%;
+    top: 22%;
+    z-index: 2;
+  }
+}
+
+/* Thrid animation on clicking image 4 */
+
+/* Box 1 */
+#thirdAnimeB1 {
+  animation: thirdBox1 0.5s ease-out;
+  position: absolute;
+}
+
+@keyframes thirdBox1 {
+  0% {
+    right: 2%;
+    z-index: 1;
+  }
+  100% {
+    top: 80%;
+    left: 2%;
+    z-index: 1;
+  }
+}
+
+/* Box 2 */
+
+#thirdAnimeB2 {
+  animation: thirdBox2 0.5s linear;
+}
+
+@keyframes thirdBox2 {
+  0% {
+    right: 30%;
+    z-index: 3;
+  }
+  100% {
+    right: 2%;
+    z-index: 3;
+  }
+}
+
+/* Box 3 */
+
+#thirdAnimeB3 {
+  animation: thirdBox3 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes thirdBox3 {
+  0% {
+    top: 2%;
+    right: 2%;
+    z-index: 1;
+  }
+  100% {
+    transform: scaleX(0.4) scaleY(0.45);
+    right: 30%;
+    top: 37%;
+    z-index: 1;
+  }
+}
+
+/* Box 4 */
+
+#thirdAnimeB4 {
+  animation: thirdBox4 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes thirdBox4 {
+  0% {
+    top: 80%;
+    right: 52%;
+    z-index: 4;
+  }
+  100% {
+    transform: scaleX(2) scaleY(2.8);
+    right: 28%;
+    top: 22%;
+    z-index: 4;
+  }
+}
+
+/* fourth Animation on Clicking image 5 */
+
+/* Box 1 */
+
+#fourAnimeB1 {
+  animation: fourBox1 0.5s ease-out;
+  position: absolute;
+}
+
+@keyframes fourBox1 {
+  0% {
+    right: 52%;
+    z-index: 1;
+  }
+  100% {
+    right: 2%;
+    z-index: 1;
+  }
+}
+
+/* Box 2 */
+
+#fourAnimeB2 {
+  animation: fourBox2 0.5s linear;
+}
+
+@keyframes fourBox2 {
+  0% {
+    right: 2%;
+    z-index: 2;
+  }
+  100% {
+    top: 80%;
+    left: 2%;
+    z-index: 2;
+  }
+}
+
+/* Box 3 */
+
+#fourAnimeB3 {
+  animation: fourBox3 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes fourBox3 {
+  0% {
+    right: 30%;
+    z-index: 3;
+  }
+  100% {
+    right: 2%;
+    z-index: 3;
+  }
+}
+
+/* Box 4 */
+
+#fourAnimeB4 {
+  animation: fourBox4 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes fourBox4 {
+  0% {
+    top: 2%;
+    right: 2%;
+    z-index: 4;
+  }
+  100% {
+    transform: scaleX(0.4) scaleY(0.45);
+    right: 30%;
+    top: 37%;
+    z-index: 4;
+  }
+}
+
+/* Box 5 */
+
+#fourAnimeB5 {
+  animation: fourBox5 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes fourBox5 {
+  0% {
+    top: 80%;
+    left: 52%;
+    z-index: 5;
+  }
+  100% {
+    transform: scaleX(2) scaleY(2.8);
+    left: 28%;
+    top: 22%;
+    z-index: 5;
+  }
+}
+
+/* Animation 5 on Clicking image 1 */
+
+/* Box 1 */
+
+#fiveAnimeB1 {
+  animation: fiveBox1 0.5s ease-out;
+  position: absolute;
+}
+
+@keyframes fiveBox1 {
+  0% {
+    top: 80%;
+    left: 52%;
+    z-index: 5;
+  }
+  100% {
+    transform: scaleX(2) scaleY(2.8);
+    left: 28%;
+    top: 22%;
+    z-index: 5;
+  }
+}
+
+/* Box 2 */
+
+#fiveAnimeB2 {
+  animation: fiveBox2 0.5s linear;
+}
+
+@keyframes fiveBox2 {
+  0% {
+    top: 80%;
+    z-index: 2;
+  }
+  100% {
+    top: 59%;
+    z-index: 2;
+  }
+}
+
+/* Box 4 */
+
+#fiveAnimeB4 {
+  animation: fiveBox4 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes fiveBox4 {
+  0% {
+    top: 49%;
+    z-index: 1;
+  }
+  100% {
+    top: 70%;
+    z-index: 1;
+  }
+}
+
+/* Box 5 */
+
+#fiveAnimeB5 {
+  animation: fiveBox5 0.5s ease-out;
+  position: absolute;
+  transition: 0.5s;
+}
+
+@keyframes fiveBox5 {
+  0% {
+    top: 22%;
+    left: 2%;
+    z-index: 3;
+  }
+  100% {
+    transform: scaleX(0.5) scaleY(0.45);
+    left: 26%;
+    top: 59%;
+    z-index: 3;
+  }
+}
